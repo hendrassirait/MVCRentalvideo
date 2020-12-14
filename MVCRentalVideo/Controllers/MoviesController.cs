@@ -12,7 +12,7 @@ namespace MVCRentalVideo.Controllers
         // GET: Movies
         public ActionResult Random()
         {
-            var movie = new Movie() { Name = "Shrek" };
+            ViewBag.Name = "Tes";
             return View();
         }
     }
